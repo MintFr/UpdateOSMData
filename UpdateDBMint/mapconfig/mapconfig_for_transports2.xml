@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <tag_name name="highway" id="1">
+        <tag_value name="platform" id="100"/>
+    </tag_name>
+    <tag_name name="railway" id="2">
+        <tag_value name="platform" id="200"/>
+    </tag_name>
+</configuration>

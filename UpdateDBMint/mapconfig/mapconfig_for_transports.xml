@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- only ways which match to one of the following key-values pares will be imported -->
+<!-- the lines are evaluated in the order of their priority and id (ascending) -->
+<!-- only the tag-id of the first match is stored in the table -->
+<configuration>
+  <tag_name name="busway" id="1" >
+	<tag_value name="lane" id="100"/>
+	<tag_value name="yes" id="101"/>
+	<tag_value name="opposite lane" id="102"/>
+	<tag_value name="platform" id="103"/>
+  </tag_name>
+	
+  <tag_name name="busway:left" id="2" >
+	<tag_value name="lane" id="200"/>
+	<tag_value name="yes" id="201"/>
+	<tag_value name="opposite lane" id="202"/>
+	<tag_value name="platform" id="203"/>
+  </tag_name>
+
+  <tag_name name="busway:right" id="3" >
+	<tag_value name="lane" id="300"/>
+	<tag_value name="yes" id="301"/>
+	<tag_value name="opposite lane" id="302"/>
+	<tag_value name="platform" id="303"/>
+  </tag_name>
+  
+   <tag_name name="bus" id="4" >
+	<tag_value name="lane" id="400"/>
+	<tag_value name="yes" id="401"/>
+	<tag_value name="opposite lane" id="402"/>
+	<tag_value name="platform" id="403"/>
+  </tag_name>
+  
+  <tag_name name="public_transport" id="5">
+	<tag_value name="stop position" id="500"/>
+  </tag_name>
+  	
+  <tag_name name="highway" id="6" >
+	<tag_value name="bus_stop" id="600"/>
+	<tag_value name="platform" id="605"/>
+  </tag_name>
+  
+  <tag_name name="railway" id="7">
+  	<tag_value name="tram_stop" id="700"/>
+	<tag_value name="tram" id="710"/>
+	<tag_value name="platform" id="720"/>
+  </tag_name>
+  
+</configuration>

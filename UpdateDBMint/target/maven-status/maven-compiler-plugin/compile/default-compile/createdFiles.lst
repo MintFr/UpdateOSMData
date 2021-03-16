@@ -1,0 +1,4 @@
+org\centrale\updatedbmint\ExecutiveCommand.class
+org\centrale\updatedbmint\Main.class
+org\centrale\updatedbmint\UpdateDB.class
+org\centrale\updatedbmint\AfficheurFlux.class
